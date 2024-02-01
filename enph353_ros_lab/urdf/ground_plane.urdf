@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="ground_plane">
+  <link name="link">
+    <visual>
+      <geometry>
+        <plane>
+          <normal>0 0 1</normal>
+          <size>100 100</size>
+        </plane>
+      </geometry>
+      <material name="ground_plane_texture">
+        <texture filename="package://enph353_ros_lab/textures/monza.png"/>
+      </material>
+    </visual>
+  </link>
+</robot>

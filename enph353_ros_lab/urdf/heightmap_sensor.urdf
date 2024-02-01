@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="heightmap_sensor">
+  <link name="link">
+    <collision>
+      <geometry>
+        <box>
+          <size>0.1 0.1 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <box>
+          <size>0.1 0.1 0.1</size>
+        </box>
+      </geometry>
+    </visual>
+  </link>
+</robot>
